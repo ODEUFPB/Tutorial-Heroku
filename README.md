@@ -3,6 +3,9 @@
 Referência utilizada:
 - Referência: https://devcenter.heroku.com/articles/how-heroku-works
 
+
+# Visão Geral
+
 ## Definindo uma aplicação
 
 O Heroku permite você fazer o upload, rodar e administrar aplicações feitas nas seguintes linguagens: Ruby, Node.js, Java, Python, Clojure, Scala, Go e PHP. Isso permite que você trabalhe também com frameworks e bibliotecas que combinem mais de uma dessas linguagens. Ele também permite o trabalho com dependências (bibliotecas externas), em python, por exemplo, elas são representadas por um arquivo requirements.txt. Sendo assim, o código da sua aplicação juntamente com o arquivo de dependências fornece informação suficiente para a plataforma do Heroku construir a sua aplicação, produzindo um arquivo que pode ser executado na web.
@@ -33,6 +36,27 @@ Normalmente, quando é a primeira vez que você faz um deploy, O Heroku iniciali
 
 ## Login e Monitoramento do Site
 O heroku fornece as informações do site sequencialmente de acordo com os registros de data e hora dos eventos que vão ocorrendo. <strong>Isso é importante para ver quando há um erro no site, por exemplo</strong>. 
+
+
+# Conhecimento prático
+
+## Instalando o Heroku 
+
+### Windows
+Para fazer a instalação do Heroku basta ir até o site: <a src="https://devcenter.heroku.com/articles/heroku-cli#download-and-install">clique aqui</a> e selecionar o instalador de acordo com o seu sistema operacional. No momento de instação, lembre de manter a opção de instalar no PATH habilitada, assim você também pode utilizar o Heroku direto do seu terminal windows.
+
+### MacOS
+A Heroku recomenda a instalação direto do terminal para o MacOS através do comando ```brew tap heroku/brew && brew install heroku```
+
+### Linux 
+Para o Linux Ubuntu, a Heroku recomenda a instalação através do terminal, através do comando ```sudo snap install --classic heroku```. Porém, no site <a src="https://devcenter.heroku.com/articles/heroku-cli#download-and-install">clique aqui</a> é possível encontrar o método de instalação para as mais diversas distribuições.
+
+
+## Primeiros Passos
+
+Para fazer o login na sua conta Heroku utilize o comando ```heroku login``` no seu terminal (MacOS/Linux) ou no cmd (windows) nesse caso você será redirecionado ao browser para realizar o login. Outra forma de fazer isso é através do comando ```heroku login -i``` nesse caso você consegue inserir as informações de login direto no terminal.
+
+
 
 
 

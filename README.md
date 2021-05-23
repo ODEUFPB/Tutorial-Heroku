@@ -2,6 +2,8 @@
 
 Referência utilizada:
 - Referência: https://devcenter.heroku.com/articles/how-heroku-works
+- https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c#:~:text=Create%20Heroku%20app%20linked%20to,%E2%80%9Cgit%20push%20Heroku%20main%E2%80%9D)
+
 
 
 # Visão Geral
@@ -70,5 +72,17 @@ Nesses casos, você deve proceder da seguinte forma:
 
 (3) Se der erro novamente, repita o processo
 
+## Passo a passo para fazer o primeiro deploy de uma aplicação dash para o Heroku
+
+Fazer o primeiro deploy da sua aplicação normalmente leva um tempo considerável se você não tem experiência, uma vez que você precisa adicionar alguns novos arquivos ao diretório e fazer algumas mudanças na estrutura da sua aplicação. Porém, uma vez feito esse processo, o procedimento para atualizar o conteúdo da sua aplicação só precisa de alguns cliques, sendo realizado de maneira super rápida.
 
 
+
+# Algo interessante para adioionar a mais na introdução...
+this means Heroku provides the physical hardware (storage, compute), software services (linux/unix/sql), and dependencies (packages), in a containerised environment to deploy and host your application on a publicly accessible URL (end-point)
+
+The free version gets you one dyno with up to 500MB storage and 500MB ram.
+
+It sleeps after 30 minutes of inactivity, presumably so Heroku resources are not drained. So the catch with the free version is that your website can take a good 30–60 seconds to load initially, as your free Dyno is provisioned on demand.  (dorme seria o equivalente a desligar o computador em um ambiente)
+
+In short — Heroku natively supports deploying repositories that reside in GitHub.

@@ -56,7 +56,19 @@ Para o Linux Ubuntu, a Heroku recomenda a instalação através do terminal, atr
 
 Para fazer o login na sua conta Heroku utilize o comando ```heroku login``` no seu terminal (MacOS/Linux) ou no cmd (windows) nesse caso você será redirecionado ao browser para realizar o login. Outra forma de fazer isso é através do comando ```heroku login -i``` nesse caso você consegue inserir as informações de login direto no terminal.
 
+## Checando os Logs da aplicação na prática e lidando com erros
 
+Algumas vezes acabando fazendo modificações erradas no repositório que nos provocam o erro abaixo:
+
+<img src="jfhwjefkhjfkwhf">
+
+Nesses casos, você deve proceder da seguinte forma:
+(1) verificar os logs da sua aplicação no Heroku através do terminal através do comando ```heroku logs```
+    - encontrar o erro a partir dessa verificação
+
+(2) Resolver o erro no código e fazer um novo deploy para verificação
+
+(3) Se der erro novamente, repita o processo
 
 
 

@@ -1,10 +1,8 @@
 <h1 align="center">Tutorial Heroku</h1>
 
 Referência utilizada:
-- [Como funciona o Heroku] (https://devcenter.heroku.com/articles/how-heroku-works)
-- [Fazendo o deploy da sua primeira aplicação] (https://towardsdatascience.com/
-deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c#:~:text=Create%20Heroku%20app%20linked%20to,%E2%80%9Cgit%20push%20Heroku%20main%E2%80%9D)
-
+- [Como funciona o Heroku](https://devcenter.heroku.com/articles/how-heroku-works)
+- [Fazendo o deploy da sua primeira aplicação](https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c#:~:text=Create%20Heroku%20app%20linked%20to,%E2%80%9Cgit%20push%20Heroku%20main%E2%80%9D)
 
 # Introdução
 

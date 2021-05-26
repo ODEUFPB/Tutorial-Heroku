@@ -118,7 +118,9 @@ Clique [aqui](https://devcenter.heroku.com/articles/logging) caso deseje obter m
 
 ## Passo a passo para fazer o primeiro deploy de uma aplicação dash para o Heroku
 
-Fazer o primeiro deploy da sua aplicação normalmente leva um tempo considerável se você não tem experiência, uma vez que você precisa adicionar alguns novos arquivos ao diretório e fazer algumas mudanças na estrutura da sua aplicação. Porém, uma vez feito esse processo, o procedimento para atualizar o conteúdo da sua aplicação só precisa de alguns cliques, sendo realizado de maneira super rápida.
+O processo de deploy é um pouco complicado na primeira vez, porém uma vez realizado torna-se bem mais simples atualizar a aplicação (realizar novos deploys). Confere o vídeo abaixo que te explicamos como fazer esse processo de forma descomplicada.
+
+VIDEO YASMIN
 
 
 # Referência utilizada

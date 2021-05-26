@@ -33,7 +33,7 @@
 
 # Introdução <a name="intro"></a>
 
-O Heroku é uma plataforma que permite a hospedagem gratuita e paga de aplicações web, fornecendo todo o cenário necessário para colocar um site na web em várias linguagens de programação, como Python, Ruby, React, etc. Nesse sentido, a sua versão gratuita é muito utilizada para a protetipagem de websites, como é o caso do site do ODE, uma vez que suporta sites de até 500Mb. O funcionamento da hospedagem na versão gratuita é interessante, pois quando o seu site fica inativo(sem visitas) por 30 minutos, o heroku "dorme a máquina"(hiberna) necessária por fazer o seu site funcionar, fazendo com que ele demore um tempo considerável para responder em tais situações, essa é uma das características que permite que o serviço seja gratuito, mas também existem versões pagas em que isso não ocorre.
+O Heroku é uma plataforma que permite a hospedagem gratuita e paga de aplicações web, fornecendo todo o cenário necessário para colocar um site na web em várias linguagens de programação, como Python, Ruby, React, etc. Nesse sentido, a sua versão gratuita é muito utilizada para a prototipagem de websites, como é o caso do site do Oberservatório de Dados da Extensão(ODE) - http://ode-dash.herokuapp.com/, uma vez que suporta sites de até 500MB. O funcionamento da hospedagem na versão gratuita é interessante, pois quando o seu site fica inativo(sem visitas) por 30 minutos, o heroku "dorme a máquina"(hiberna) necessária por fazer o seu site funcionar, fazendo com que ele demore um tempo considerável para responder em tais situações, essa é uma das características que permite que o serviço seja gratuito, mas também existem versões pagas em que isso não ocorre.
 
 # Visão Geral <a name="vg"></a>
 

@@ -1,8 +1,5 @@
 <h1 align="center">Tutorial Heroku</h1>
 
-Referência utilizada:
-- [Como funciona o Heroku](https://devcenter.heroku.com/articles/how-heroku-works)
-- [Fazendo o deploy da sua primeira aplicação](https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c#:~:text=Create%20Heroku%20app%20linked%20to,%E2%80%9Cgit%20push%20Heroku%20main%E2%80%9D)
 
 # Introdução
 
@@ -83,9 +80,18 @@ Confere o vídeo abaixo que te explicamos isso na prática!
 [<img src="pictures/logs-picture.png" >](https://youtu.be/qpmOPcIMM_A)
 | [Clique aqui para acessar o vídeo](https://youtu.be/qpmOPcIMM_A "obrigatorio") |
 
+Clique [aqui](https://devcenter.heroku.com/articles/logging) caso deseje obter mais informações no site oficial do heroku.
+
 ## Passo a passo para fazer o primeiro deploy de uma aplicação dash para o Heroku
 
 Fazer o primeiro deploy da sua aplicação normalmente leva um tempo considerável se você não tem experiência, uma vez que você precisa adicionar alguns novos arquivos ao diretório e fazer algumas mudanças na estrutura da sua aplicação. Porém, uma vez feito esse processo, o procedimento para atualizar o conteúdo da sua aplicação só precisa de alguns cliques, sendo realizado de maneira super rápida.
+
+
+# Referência utilizada
+
+- [Como funciona o Heroku](https://devcenter.heroku.com/articles/how-heroku-works)
+- [Fazendo o deploy da sua primeira aplicação](https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c#:~:text=Create%20Heroku%20app%20linked%20to,%E2%80%9Cgit%20push%20Heroku%20main%E2%80%9D)
+
 
 
 

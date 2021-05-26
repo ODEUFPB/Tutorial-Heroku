@@ -1,11 +1,45 @@
 <h1 align="center">Tutorial Heroku</h1>
 
+## Sumário
 
-# Introdução
+* ### [Introdução](#intro)
+
+* ### [Visão Geral](#vg)
+    
+    * #### [Definindo uma Aplicação](#metodo1)
+    * #### [Definindo o que precisa ser executado](#metodo2)
+    * #### [Fazendo o Deploy das aplicações](#metodo3)
+    * #### [Git push Heroku master](#metodo1)
+    * #### [Construção de Aplicações](#metodo2)
+    * #### [Como funciona o “dynos”](#metodo3)
+    * #### [Login e Monitoramento do Site](#metodo3)
+
+* ### [Conhecimento Prático](#vg)
+    * #### [Instalando o Heroku](#metodo1)
+        * ##### [Windows](#metodo1)
+        * ##### [MacOS](#metodo1)
+        * ##### [Linux](#metodo1)
+
+* #### [Primeiros Passos](#metodo2)
+
+* #### [Checando os Logs da aplicação na prática e lidando com erros](#metodo3)
+
+* #### [Primeiros Passos](#metodo2)
+
+* #### [Checando os Logs da aplicação na prática e lidando com erros](#metodo3)
+
+* #### [Passo a passo para fazer o primeiro deploy de uma aplicação dash para o Heroku](#metodo3)
+
+* ### [Referência](#ref)
+
+* ### [Redes Sociais do ODE](#social-media)
+
+
+# Introdução <a name="intro"></a>
 
 O Heroku é uma plataforma que permite a hospedagem gratuita e paga de aplicações web, fornecendo todo o cenário necessário para colocar um site na web em várias linguagens de programação, como Python, Ruby, React, etc. Nesse sentido, a sua versão gratuita é muito utilizada para a protetipagem de websites, como é o caso do site do ODE, uma vez que suporta sites de até 500Mb. O funcionamento da hospedagem na versão gratuita é interessante, pois quando o seu site fica inativo(sem visitas) por 30 minutos, o heroku "dorme a máquina"(hiberna) necessária por fazer o seu site funcionar, fazendo com que ele demore um tempo considerável para responder em tais situações, essa é uma das características que permite que o serviço seja gratuito, mas também existem versões pagas em que isso não ocorre.
 
-# Visão Geral
+# Visão Geral <a name="vg"></a>
 
 ## Definindo uma aplicação
 
@@ -91,8 +125,13 @@ Fazer o primeiro deploy da sua aplicação normalmente leva um tempo consideráv
 
 - [Como funciona o Heroku](https://devcenter.heroku.com/articles/how-heroku-works)
 - [Fazendo o deploy da sua primeira aplicação](https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c#:~:text=Create%20Heroku%20app%20linked%20to,%E2%80%9Cgit%20push%20Heroku%20main%E2%80%9D)
+- [Logs no Heroku](https://devcenter.heroku.com/articles/logging)
 
 
+### visite as nossas redes sociais: <a name="social-media"></a>
+
+[<img src = "https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/ODEUFPB"  height="28" width="auto">](https://github.com/ODEUFPB/) 
+[<img src = "https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white">](https://www.instagram.com/extensaocear/) 
 
 
 

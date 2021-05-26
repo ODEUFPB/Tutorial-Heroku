@@ -65,7 +65,7 @@ Para fazer o login na sua conta Heroku utilize o comando ```heroku login``` no s
 
 Algumas vezes acabando fazendo modificações erradas no repositório que nos provocam o erro abaixo:
 
-<img src="pictures/error-heroku.png" height="200px" width="auto">
+<img src="pictures/error-heroku.png" height="200px" width="auto" text-align="center">
 
 Nesses casos, você deve proceder da seguinte forma:
 (1) verificar os logs da sua aplicação no Heroku através do terminal através do comando ```heroku logs --app NomeDaAPP```

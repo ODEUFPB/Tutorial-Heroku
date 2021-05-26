@@ -115,7 +115,7 @@ Clique [aqui](https://devcenter.heroku.com/articles/logging) caso deseje obter m
 
 O processo de deploy é um pouco complicado na primeira vez, porém uma vez realizado torna-se bem mais simples atualizar a aplicação (realizar novos deploys). Confere o vídeo abaixo que te explicamos como fazer esse processo de forma descomplicada.
 
-[<img src="pictures/tutorial-heroku.png" >](https://youtu.be/qpmOPcIMM_A)
+[<img src="pictures/tutorial-heroku.png" >](https://youtu.be/2yJGORSOzO4)
 | [Clique aqui para acessar o vídeo](https://youtu.be/2yJGORSOzO4 "obrigatorio") |
 
 

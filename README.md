@@ -70,7 +70,7 @@ Algumas vezes acabando fazendo modificações erradas no repositório que nos pr
 </p>
 
 Nesses casos, você deve proceder da seguinte forma:
-(1) verificar os logs da sua aplicação no Heroku através do terminal através do comando ```heroku logs --app NomeDaAPP```
+(1) verificar os logs da sua aplicação no Heroku através do terminal através do comando ```heroku logs --app NomeDaAPP --tail```
     - encontrar o erro a partir dessa verificação
 
 (2) Resolver o erro no código (no repositório) e fazer um novo deploy para verificação;

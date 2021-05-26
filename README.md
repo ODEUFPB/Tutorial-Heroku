@@ -5,6 +5,9 @@ Referência utilizada:
 - https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c#:~:text=Create%20Heroku%20app%20linked%20to,%E2%80%9Cgit%20push%20Heroku%20main%E2%80%9D)
 
 
+# Introdução
+
+O Heroku é uma plataforma que permite a hospedagem gratuita e paga de aplicações web, fornecendo todo o cenário necessário para colocar um site na web em várias linguagens de programação, como Python, Ruby, React, etc. Nesse sentido, a sua versão gratuita é muito utilizada para a protetipagem de websites, como é o caso do site do ODE, uma vez que suporta sites de até 500Mb. O funcionamento da hospedagem na versão gratuita é interessante, pois quando o seu site fica inativo(sem visitas) por 30 minutos, o heroku "dorme a máquina"(hiberna) necessária por fazer o seu site funcionar, fazendo com que ele demore um tempo considerável para responder em tais situações, essa é uma das características que permite que o serviço seja gratuito, mas também existem versões pagas em que isso não ocorre.
 
 # Visão Geral
 
@@ -65,24 +68,20 @@ Algumas vezes acabando fazendo modificações erradas no repositório que nos pr
 <img src="jfhwjefkhjfkwhf">
 
 Nesses casos, você deve proceder da seguinte forma:
-(1) verificar os logs da sua aplicação no Heroku através do terminal através do comando ```heroku logs```
+(1) verificar os logs da sua aplicação no Heroku através do terminal através do comando ```heroku logs --app NomeDaAPP```
     - encontrar o erro a partir dessa verificação
 
-(2) Resolver o erro no código e fazer um novo deploy para verificação
+(2) Resolver o erro no código (no repositório) e fazer um novo deploy para verificação;
 
-(3) Se der erro novamente, repita o processo
+(3) Se der erro novamente, repita o processo.
+
+(4) Caso isso não funcione, tente observar os demais tipos de logs do seu website, para saber mais digite o seguinte comando no terminal: ```heroku logs --help```.
 
 ## Passo a passo para fazer o primeiro deploy de uma aplicação dash para o Heroku
 
 Fazer o primeiro deploy da sua aplicação normalmente leva um tempo considerável se você não tem experiência, uma vez que você precisa adicionar alguns novos arquivos ao diretório e fazer algumas mudanças na estrutura da sua aplicação. Porém, uma vez feito esse processo, o procedimento para atualizar o conteúdo da sua aplicação só precisa de alguns cliques, sendo realizado de maneira super rápida.
 
+[<img src="pictures/error-heroku.jpg" >]
 
 
-# Algo interessante para adioionar a mais na introdução...
-this means Heroku provides the physical hardware (storage, compute), software services (linux/unix/sql), and dependencies (packages), in a containerised environment to deploy and host your application on a publicly accessible URL (end-point)
 
-The free version gets you one dyno with up to 500MB storage and 500MB ram.
-
-It sleeps after 30 minutes of inactivity, presumably so Heroku resources are not drained. So the catch with the free version is that your website can take a good 30–60 seconds to load initially, as your free Dyno is provisioned on demand.  (dorme seria o equivalente a desligar o computador em um ambiente)
-
-In short — Heroku natively supports deploying repositories that reside in GitHub.

@@ -1,8 +1,9 @@
 <h1 align="center">Tutorial Heroku</h1>
 
 Referência utilizada:
-- Referência: https://devcenter.heroku.com/articles/how-heroku-works
-- https://towardsdatascience.com/deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c#:~:text=Create%20Heroku%20app%20linked%20to,%E2%80%9Cgit%20push%20Heroku%20main%E2%80%9D)
+- [Como funciona o Heroku] (https://devcenter.heroku.com/articles/how-heroku-works)
+- [Fazendo o deploy da sua primeira aplicação] (https://towardsdatascience.com/
+deploying-your-dash-app-to-heroku-the-magical-guide-39bd6a0c586c#:~:text=Create%20Heroku%20app%20linked%20to,%E2%80%9Cgit%20push%20Heroku%20main%E2%80%9D)
 
 
 # Introdução
@@ -66,7 +67,7 @@ Para fazer o login na sua conta Heroku utilize o comando ```heroku login``` no s
 Algumas vezes acabando fazendo modificações erradas no repositório que nos provocam o erro abaixo:
 
 <p align="center">
-    <img src="pictures/error-heroku.png" height="200px" width="auto">
+    <img src="pictures/error-heroku.png" height="250px" width="auto">
 </p>
 
 Nesses casos, você deve proceder da seguinte forma:
